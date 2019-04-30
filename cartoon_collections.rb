@@ -25,6 +25,8 @@ def find_the_cheese(array) # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   
+  array.find()
+  
   if array.include?(cheese_types[0])
     return cheese_types[0]
   elsif array.include?(cheese_types[1])
@@ -34,9 +36,5 @@ def find_the_cheese(array) # code an argument here
   else
     return nil
   end
-  
-  #cheese_types.each do |element|
-  #  location = array.index(element)
-  #  puts location
-  #end
+
 end
